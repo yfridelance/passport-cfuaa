@@ -1,0 +1,30 @@
+{
+  "name": "@fridelance/passport-cfuaa",
+  "version": "1.0.0",
+  "description": "Passport Authentication Strategy for Cloudfoundry UAA service",
+  "main": "./lib",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "author": {
+    "name": "Yves Fridelance",
+    "email": "yves@fridelance.ch",
+    "url": "https://github.com/yfridelance"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jws": "^4.0.0",
+    "oauth": "^0.10.0",
+    "passport-oauth2": "^1.6.1",
+    "passport-strategy": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "url": "^0.11.0",
+    "util": "^0.12.4",
+    "utils-merge": "^1.0.1"
+  }
+}
